@@ -1,0 +1,25 @@
+.contactFormContainer {
+  padding: 100px 0;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.formContainer {
+  flex-wrap: wrap;
+  align-items: center;
+  display: flex;
+  margin-top: 40px;
+}
+
+.contactTextArea {
+  border: none;
+  font-size: 15px;
+  outline: none;
+  letter-spacing: .1em;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.contactTextArea::placeholder {
+  color: #151515;
+}

@@ -1,0 +1,13 @@
+.loginContainer {
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+}
+
+.loginContainer h1 {
+  margin-bottom: 20px;
+}
+
+.loginContainer form {
+  flex-direction: column;
+}

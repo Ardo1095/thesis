@@ -1,0 +1,14 @@
+.checkoutPageContainer {
+    display: flex;
+    flex: 1;
+}
+
+.checkoutPageContainer h2 {
+    letter-spacing: 0.05em;
+    margin-bottom: 30px;
+}
+
+.addressSection, .paymentSection {
+    flex: 1;
+    flex-direction: column;
+}

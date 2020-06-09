@@ -1,0 +1,13 @@
+.adminSidebarContainer {
+  min-height: 100%;
+  width: 250px;
+  background-color: white;
+  box-shadow: 4px 0 18px 0 rgba(0,0,0,.12),0 7px 10px -5px rgba(0,0,0,.15);
+  position: fixed;
+  text-transform: uppercase;
+  padding: 40px 0;
+}
+
+.activeSidebar {
+  color: #ffd79a;
+}

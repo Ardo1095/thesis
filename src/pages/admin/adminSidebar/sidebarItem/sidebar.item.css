@@ -1,0 +1,18 @@
+.sidebarItemContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  height: 10px;
+  width: 100%;
+  padding: 20px 30px;
+  letter-spacing: .1em;
+  font-size: 14px;
+  font-weight: bold;
+  /*background-color: orangered;*/
+  transition: all 0.25s ease-in-out;
+}
+
+
+.activeSidebar {
+  color: #ffd79a;
+}

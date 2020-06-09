@@ -1,0 +1,16 @@
+.statsContainer {
+  padding: 120px 0;
+  justify-content: center;
+  background-image: url("../../../assets/statsImage.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.statInnerContainer {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}

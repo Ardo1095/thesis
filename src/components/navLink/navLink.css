@@ -1,0 +1,13 @@
+.navLinkContainer {
+  height: 100%;
+  padding: 0 20px;
+  letter-spacing: .1em;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.25s ease-in-out;
+}
+
+.navLinkActiveClass {
+  color: #ffd79a;
+}

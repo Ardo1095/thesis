@@ -1,0 +1,25 @@
+.pageJumbotronContainer {
+  width: 100%;
+  height: 477px;
+  background-size: cover;
+  padding: 10px 600px;
+  flex-direction: column;
+  background-position: center;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
+.pageTitle {
+  font-size: 55px;
+  text-shadow: rgba(0, 0, 0, 0.180392) 3px 9px 16px;
+  text-transform: uppercase;
+  letter-spacing: 2.75px;
+  color: white;
+}
+
+.pageSubtitle {
+  letter-spacing: .025em;
+  line-height: 1.6;
+  color: white;
+  margin-top: 30px;
+}

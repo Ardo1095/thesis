@@ -1,0 +1,22 @@
+.aboutSliderContainer {
+  height: 100%;
+  width: 100%;
+}
+
+.thumbnailContainer {
+  display: flex;
+  margin-top: 20px;
+  height: 150px;
+}
+
+.thumbnail {
+  cursor: pointer;
+  flex: 1;
+  transition: all ease-in-out 0.5s;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  width: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

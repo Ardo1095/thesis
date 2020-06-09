@@ -1,0 +1,87 @@
+.orderSectionContainer {
+  flex: 1;
+}
+
+.orderContainer {
+  flex: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.productName {
+  color: rgb(21, 21, 21);
+  letter-spacing: 0.03em;
+}
+
+.price {
+  color: #777777;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+
+.unitPrice {
+  color: #76aa6f;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.productDescription {
+  margin-top: 30px;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+}
+
+.productWidget {
+  font-size: 15px;
+  color: #151515;
+}
+
+.productWidget strong {
+  color: #151515;
+}
+
+.quantityButtonsContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  flex-direction: column;
+}
+
+.quantityInput {
+  padding: 17px 10px;
+  max-width: 150px;
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  color: #151515;
+  background-color: #ebebeb;
+  font-weight: 500;
+  border: 1px solid rgb(245, 245, 245);
+  border-radius: 6px;
+  outline: none;
+  text-align: center;
+}
+
+.quantityButton {
+  cursor: pointer;
+  height: 32px;
+  width: 32px;
+  background-color: #ebebeb;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input::-webkit-contacts-auto-fill-button,
+input::-webkit-credentials-auto-fill-button {
+  visibility: hidden;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+}

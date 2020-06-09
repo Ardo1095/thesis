@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: #151515;
+}
+
+. appContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainApp {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1000px){
+  .mainApp {
+    display: none;
+    height: 100%;
+  }
+  .smallDevice {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .smallDevice {
+    display: none;
+  }
+}
+
+h1, h3, h3, h4, h5, h6 {
+  letter-spacing: .02em;
+}
+
+html {
+  height: 100%;
+  display: flex;
+}
+
+body {
+  width: 100%;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+hr {
+  width: 100%;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: #151515;
+}
+
+p {
+  line-height: 1.6;
+}
+
+a:hover {
+  color: #ffd79a;
+  text-decoration: none;
+}
+
+.fullHeight {
+  flex-direction: column;
+  height: 100%;
+}
+
+.flex {
+  display: flex;
+  flex: 1;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+}
